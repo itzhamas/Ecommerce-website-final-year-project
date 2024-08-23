@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/web_store_test?useSSL=false
+    password: root
+  mail:
+    host: smtp-mail.outlook.com
+    port: 587
+    username: bazar6999@outlook.com
+    password: bazar123
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  server:
+    port: 8084
+  jpa:
+    hibernate:
+      ddl-auto: update
